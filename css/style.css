@@ -215,7 +215,7 @@ header {
   padding: 100px 0;
   padding-top: 100px;
   padding-bottom: 150px;
-  background-image: url("/img/hero-bg.jpg");
+  background-image: url("../img/hero/hero-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -261,7 +261,7 @@ header {
   line-height: 155%;
   color: #787878;
   text-transform: uppercase;
-  background-image: url("/img/ssl.svg");
+  background-image: url("../img/hero/ssl.svg");
   background-position: left center;
   background-repeat: no-repeat;
   background-size: 14px 17px;
@@ -515,15 +515,15 @@ header {
 }
 
 .contacts__item-visit {
-  background-image: url("/img/visit.svg");
+  background-image: url("../img/contacts/visit.svg");
 }
 
 .contacts__item-call {
-  background-image: url("/img/call.svg");
+  background-image: url("../img/contacts/call.svg");
 }
 
 .contacts__item-email {
-  background-image: url("/img/email.svg");
+  background-image: url("../img/contacts/email.svg");
 }
 
 .contacts__item:not(:nth-child(3n)) {
@@ -632,7 +632,11 @@ header {
   border-radius: 50px;
   transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
   /* Позволяет убрать стрелку в выпадающем списке, чтобы подгрузить свою через backgroung-img */
-  /* appearance: none;  */
+  background-image: url(../img/join-us/rectangle.png);
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  background-size: 12px 7px;
+  appearance: none; 
 }
 
 .join-us__form-select:focus {
@@ -672,6 +676,7 @@ header {
 
 .join-us__form-textarea:active {
   border-color: #0e3b6c;
+
 }
 
 .join-us__btn {
