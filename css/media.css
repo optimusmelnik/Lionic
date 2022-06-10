@@ -186,6 +186,10 @@
     line-height: 150%;
   }
 
+  .services__descr {
+    text-align: left;
+  }
+
   .services__item-icon {
     margin-bottom: 15px;
     width: 42px;
