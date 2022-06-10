@@ -209,6 +209,10 @@ header {
   margin-right: 52px;
 }
 
+.burger {
+  display: none;
+}
+
 /*hero*/
 
 .hero {
@@ -222,7 +226,7 @@ header {
 }
 
 .hero__content {
-  max-width: 50%;
+  width: 50%;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -321,6 +325,7 @@ header {
 
 .services__item-title {
   margin: 0;
+  text-align: center;
   margin-bottom: 15px;
   font-weight: 600;
   font-size: 20px;
@@ -598,6 +603,7 @@ header {
 }
 
 .join-us__form-input {
+  margin-bottom: 19px;
   width: 251px;
   height: 60px;
   padding: 16px 28px;
@@ -618,10 +624,6 @@ header {
 
 .join-us__form-input:active {
   border-color: #0e3b6c;
-}
-
-.join-us__form-input:nth-child(-n + 2) {
-  margin-bottom: 19px;
 }
 
 .join-us__form-select {
